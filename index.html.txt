@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <title>我的个人主页</title>
+    <style>
+        body{
+            font-family:Microsoft Yahei;
+            text-align:center;
+            margin-top:80px;
+        }
+    </style>
+</head>
+<body>
+    <h1>你好，欢迎来到我的主页</h1>
+    <p>这是GitHub部署网页作业示例页面</p>
+</body>
+</html>
