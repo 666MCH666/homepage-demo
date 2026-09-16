@@ -2,17 +2,158 @@
 <html lang="zh-CN">
 <head>
     <meta charset="UTF-8">
-    <title>我的个人主页</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>马畅晗 - 个人简历</title>
     <style>
-        body{
-            font-family:Microsoft Yahei;
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: "Microsoft Yahei", Arial, sans-serif;
+            background-color: #f5f7fa;
+            color: #333;
+            line-height: 1.7;
+            padding: 30px 15px;
+        }
+        .container {
+            max-width: 900px;
+            background: #ffffff;
+            margin: 0 auto;
+            padding: 40px;
+            box-shadow: 0 2px 12px rgba(0,0,0,0.1);
+        }
+        header {
+            text-align: center;
+            border-bottom: 2px solid #2c5282;
+            padding-bottom:20px;
+            margin-bottom:30px;
+        }
+        h1 {
+            font-size:32px;
+            color:#222;
+        }
+        .title-sub{
+            font-size:18px;
+            color:#2c5282;
+            margin:8px 0;
+        }
+        .contact-row{
+            margin-top:12px;
+            font-size:15px;
+            color:#444;
+        }
+        h2{
+            font-size:20px;
+            color:#2c5282;
+            margin:26px 0 12px;
+            border-left:4px solid #2c5282;
+            padding-left:10px;
+        }
+        table{
+            width:100%;
+            border-collapse: collapse;
+            margin:10px 0 16px;
+        }
+        table th,table td{
+            border:1px solid #ccc;
+            padding:8px 10px;
             text-align:center;
-            margin-top:80px;
+        }
+        table th{
+            background-color:#edf2f9;
+        }
+        ul{
+            padding-left:22px;
+            margin:8px 0;
+        }
+        .item-block{
+            margin:8px 0;
         }
     </style>
 </head>
 <body>
-    <h1>你好，欢迎来到我的主页</h1>
-    <p>这是GitHub部署网页作业示例页面</p>
+    <div class="container">
+        <header>
+            <h1>马畅晗</h1>
+            <div class="title-sub">税务专业｜考研复试个人介绍</div>
+            <div class="contact-row">
+                <p>学号：26210680245｜政治面貌：中共党员｜民族：汉族｜年龄：22岁｜籍贯：江苏</p>
+                <p>电话：15951737656｜校园邮箱：26210680245@m.fudan.edu.cn｜QQ邮箱：3156154496@qq.com</p>
+            </div>
+        </header>
+
+        <section>
+            <h2>初试报考信息</h2>
+            <p>报考院校：复旦大学｜报考专业：税务</p>
+            <table>
+                <tr>
+                    <th>科目</th>
+                    <th>数学</th>
+                    <th>英语</th>
+                    <th>思想政治</th>
+                    <th>业务课</th>
+                    <th>总分</th>
+                </tr>
+                <tr>
+                    <td>初试成绩</td>
+                    <td>93</td>
+                    <td>84</td>
+                    <td>61</td>
+                    <td>127</td>
+                    <td>365</td>
+                </tr>
+            </table>
+        </section>
+
+        <section>
+            <h2>本科教育背景</h2>
+            <div class="item-block">
+                <p><strong>2022.09‑2026.06 南京工程学院｜财务管理（本科）</strong></p>
+                <p>本科绩点：3.86</p>
+                <p>毕业论文：税收筹划对海昌智能财务管理风险的影响研究</p>
+            </div>
+            <p><strong>主修课程：</strong></p>
+            <p>财政学(87)，税法，财务管理(91)，会计学(91)，管理学(90)，审计学(89)，高级财务管理(89)，财务会计(88)，商务英语(87)，投资学(87)，金融学(85)，财务建模与分析(良好)，计量经济学(85)，经济法(81)，人力资源管理(91)，西方会计学(英)(86)等</p>
+        </section>
+
+        <section>
+            <h2>奖项荣誉</h2>
+            <ul>
+                <li>2026‑06 优秀毕业生、校级优秀学生干部</li>
+                <li>2026‑05 三等奖学金</li>
+                <li>2025‑11 三等奖学金</li>
+                <li>2024‑10 三等奖学金</li>
+                <li>2024‑05 三等奖学金</li>
+                <li>2023‑10 校级三好学生、二等奖学金</li>
+                <li>2023‑05 一等奖学金</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>技能证书</h2>
+            <ul>
+                <li>CET‑4：543；CET‑6：528；雅思6分</li>
+                <li>初级会计从业资格证书</li>
+                <li>全国计算机二级WPS（良好）</li>
+                <li>普通话二级甲等</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>校园经历</h2>
+            <ul>
+                <li>班级组织委员、学生会干事</li>
+                <li>带领团队参与大学生创新创业竞赛</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>自我评价</h2>
+            <p>心态好，抗压和适应能力强，能和身边的人很好相处，学习勤奋，有进取心，做事认真负责，性格开朗，尊敬师长。</p>
+        </section>
+
+    </div>
 </body>
 </html>
